@@ -6,7 +6,7 @@ networks:
 
 services:
   Frontend:
-    image: asia-south1-docker.pkg.dev/true-artwork-375917/dotnetictech/kidskomart:dev
+    image: devopsprabin/workshop:latest
     container_name: react-workshop
     networks:
       - workshopnet
