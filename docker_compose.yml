@@ -1,0 +1,14 @@
+version: '3.7'
+
+networks:
+  workshopnet:
+    driver: bridge
+
+services:
+  Frontend:
+    image: asia-south1-docker.pkg.dev/true-artwork-375917/dotnetictech/kidskomart:dev
+    container_name: react-workshop
+    networks:
+      - workshopnet
+    ports:
+      - '80:80'
