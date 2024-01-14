@@ -11,4 +11,4 @@ services:
     networks:
       - workshopnet
     ports:
-      - '80:80'
+      - '8888:80'
