@@ -7,8 +7,12 @@ networks:
 services:
   Frontend:
     image: devopsprabin/workshop:latest
-    container_name: react-workshop
+
+
+     
+     
+         container_name: react-workshop-biyuth
     networks:
       - workshopnet
     ports:
-      - '8888:80'
+      - '8898:88'
